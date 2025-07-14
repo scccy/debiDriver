@@ -1,13 +1,13 @@
-package com.scccy.debidriver;
+package com.scccy.debidriverbacked;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DebiDriverApplication {
+public class DebiDriverBackedApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DebiDriverApplication.class, args);
+        SpringApplication.run(DebiDriverBackedApplication.class, args);
     }
 
 }
